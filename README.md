@@ -7,7 +7,7 @@ The samples include shaded jars, [uber jars](https://mergebase.com/blog/software
 # Directory Organization
 
 - [./false-hits/](./false-hits/) - No sample in here is vulnerable to CVE-2021-45046 or CVE-2021-44228.
-- [./old-hits/](./old-hits/) - Every sample in here contains versions of Log4J (1.x and 2.x) that are too old to be vulnerable to CVE-2021-45046 or CVE-2021-44228.
+- [./old-hits/](./old-hits/) - Every sample in here contains versions of Log4J (1.x and 2.x) that are too old to be vulnerable.
 - [./true-hits/](./true-hits/) - Every sample in here **is vulnerable** to CVE-2021-45046 and CVE-2021-44228.
 
 # Why Are \*.zip Files Included In The Samples?
