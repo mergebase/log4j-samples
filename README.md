@@ -1,6 +1,6 @@
 
 # log4j-samples
-Samples of log4j library versions to help log4j scanners / detectors (including ours: [github.com/mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)) improve their accuracy.
+Samples of log4j library versions to help log4j scanners / detectors (including ours: [log4j-detector](https://github.com/mergebase/log4j-detector)) improve their accuracy.
 
 Includes shaded jars, uber jars, spring-boot executable jars, jars inside jars, etc.
 
