@@ -4,6 +4,27 @@ Samples of log4j library versions to help log4j scanners / detectors (including 
 
 The samples include shaded jars, [uber jars](https://mergebase.com/blog/software-composition-analysis-sca-vs-java-uber-jars/), spring-boot executable jars, jars inside jars, etc.
 
+# Why Are \*.zip Files Included In The Samples?
+
+Java treats \*.zip exactly the same as \*.jar, and always has. You really don't want attackers to simmply rename "webapp/WEB-INF/lib/log4j-core-2.9.jar" to "log4j-core-2.9.zip" to defeat your scanner! Don't believe me?  Try this:
+
+```
+$ wget https://github.com/mergebase/log4j-samples/raw/master/false-hits/log4j-detector-2021.12.16.zip
+$ java -jar log4j-detector-2021.12.16.zip
+
+Usage: java -jar log4j-detector-2021.12.16.jar [--verbose] [paths to scan...]
+
+Exit codes:  0 = No vulnerable Log4J versions found.
+             1 = At least one legacy Log4J 1.x version found.
+             2 = At least one vulnerable Log4J 2.x version found.
+
+About - MergeBase log4j detector (version 2021.12.16)
+Docs  - https://github.com/mergebase/log4j-detector 
+(C) Copyright 2021 Mergebase Software Inc. Licensed to you via GPLv3.
+```
+(Similarly, this also works: `java -cp log4j-detector-2021.12.16.zip com.mergebase.log4j.Log4JDetector`).
+
+
 # Latest Scan With [log4j-detector](https://github.com/mergebase/log4j-detector)
 
 ```
