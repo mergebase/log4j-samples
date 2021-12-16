@@ -26,4 +26,4 @@ Includes shaded jars, uber jars, spring-boot executable jars, jars inside jars, 
 /opt/mergebase/log4j-samples/true-hits/uber/infinispan-embedded-query-8.2.12.Final.jar contains Log4J-2.x   >= 2.0-beta9 (< 2.10.0) _VULNERABLE_ :-(
 ```
 
-Notice our latest scan has two mistakes:  "log4j-over-slf4j-1.7.32.jar" and "log4j-over-slf4j-1.7.25.jar" are not actually Log4J-1.x.
+Notice our latest scan has two mistakes (see log4j-detector [issue #36](https://github.com/mergebase/log4j-detector/issues/36)):  "log4j-over-slf4j-1.7.32.jar" and "log4j-over-slf4j-1.7.25.jar" are not actually Log4J-1.x.
