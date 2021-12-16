@@ -4,7 +4,7 @@ Samples of log4j library versions to help log4j scanners / detectors (including 
 
 The samples include shaded jars, [uber jars](https://mergebase.com/blog/software-composition-analysis-sca-vs-java-uber-jars/), spring-boot executable jars, jars inside jars, etc.
 
-# Latest Scan
+# Latest Scan With [log4j-detector](https://github.com/mergebase/log4j-detector)
 
 ```
 -- github.com/mergebase/log4j-detector v2021.12.16 (by mergebase.com) analyzing paths (could take a while).
