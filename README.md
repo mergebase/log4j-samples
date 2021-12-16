@@ -12,7 +12,7 @@ The samples include shaded jars, [uber jars](https://mergebase.com/blog/software
 
 # Why Are \*.zip Files Included In The Samples?
 
-Java treats \*.zip exactly the same as \*.jar, and always has. You really don't want attackers to simmply rename "webapp/WEB-INF/lib/log4j-core-2.9.jar" to "log4j-core-2.9.zip" to defeat your scanner! Don't believe me?  Try this:
+Java treats \*.zip exactly the same as \*.jar, and always has. You really don't want attackers to simply rename "webapp/WEB-INF/lib/log4j-core-2.9.jar" to "log4j-core-2.9.zip" to defeat your scanner! Don't believe me?  Try this:
 
 ```
 $ wget https://github.com/mergebase/log4j-samples/raw/master/false-hits/log4j-detector-2021.12.16.zip
