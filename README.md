@@ -2,7 +2,7 @@
 # log4j-samples
 Samples of log4j library versions to help log4j scanners / detectors (including ours: [log4j-detector](https://github.com/mergebase/log4j-detector)) improve their accuracy.
 
-Includes shaded jars, uber jars, spring-boot executable jars, jars inside jars, etc.
+The samples include shaded jars, [uber jars](https://mergebase.com/blog/software-composition-analysis-sca-vs-java-uber-jars/), spring-boot executable jars, jars inside jars, etc.
 
 # Latest Scan
 
