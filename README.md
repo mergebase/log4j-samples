@@ -2,7 +2,13 @@
 # log4j-samples
 Samples of log4j library versions to help log4j scanners / detectors (including ours: [log4j-detector](https://github.com/mergebase/log4j-detector)) improve their accuracy.
 
-The samples include shaded jars, [uber jars](https://mergebase.com/blog/software-composition-analysis-sca-vs-java-uber-jars/), spring-boot executable jars, jars inside jars, etc.
+The samples include shaded jars, [uber jars](https://mergebase.com/blog/software-composition-analysis-sca-vs-java-uber-jars/), spring-boot executable jars, jars inside jars, exploded jars, etc.
+
+# Directory Organization
+
+- [./false-hits/](./false-hits/) - No sample in here is vulnerable to CVE-2021-45046 or CVE-2021-44228.
+- [./old-hits/](./old-hits/) - Every sample in here contains a version of Log4J-1.x.
+- [./true-hits/](./true-hits/) - Every sample in here **is vulnerable** to CVE-2021-45046 and CVE-2021-44228.
 
 # Why Are \*.zip Files Included In The Samples?
 
