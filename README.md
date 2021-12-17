@@ -1,6 +1,6 @@
 
 # log4j-samples
-Samples of log4j library versions to help log4j scanners / detectors (including ours: [log4j-detector](https://github.com/mergebase/log4j-detector)) improve their accuracy for detecting CVE-2021-45046 and CVE-2021-44228.
+Samples of log4j library versions to help log4j scanners / detectors (including our own [log4j-detector](https://github.com/mergebase/log4j-detector)) improve their accuracy for detecting CVE-2021-45046 and CVE-2021-44228.
 
 The samples include shaded jars, [uber jars](https://mergebase.com/blog/software-composition-analysis-sca-vs-java-uber-jars/), spring-boot executable jars, jars inside jars, exploded jars, etc.
 
